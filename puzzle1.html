@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Puzzle 1 | AI Puzzle Quest</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="ai-bg"></div>
+
+  <main class="page">
+    <section class="puzzle-card" data-puzzle="1" data-answer="ALGORITHM">
+      <p class="level">Puzzle 1 / 4</p>
+      <h1>Robot Brain Puzzle</h1>
+
+      <div class="ai-chip">AI is calculating your logic...</div>
+
+      <p class="question">
+        I am a step-by-step method used by computers and AI to solve problems.
+        Without me, a machine does not know what to do.
+        What am I?
+      </p>
+
+      <input type="text" id="answerInput" placeholder="Type your answer here" />
+
+      <button class="main-btn" onclick="checkAnswer()">Submit Answer</button>
+
+      <p id="resultMessage" class="result"></p>
+
+      <div class="nav-buttons">
+        <a href="index.html">Home</a>
+        <a id="nextBtn" href="puzzle2.html" class="disabled-link">Next Puzzle</a>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
