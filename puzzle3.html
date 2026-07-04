@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Puzzle 3 | AI Puzzle Quest</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="ai-bg"></div>
+
+  <main class="page">
+    <section class="puzzle-card" data-puzzle="3" data-answer="NEURAL">
+      <p class="level">Puzzle 3 / 4</p>
+      <h1>AI Network Puzzle</h1>
+
+      <div class="ai-chip">Deep learning mode is online...</div>
+
+      <p class="question">
+        I am related to the brain.
+        In AI, networks with my name help machines learn patterns,
+        recognize images, and understand language.
+        What word am I?
+      </p>
+
+      <input type="text" id="answerInput" placeholder="Type your answer here" />
+
+      <button class="main-btn" onclick="checkAnswer()">Submit Answer</button>
+
+      <p id="resultMessage" class="result"></p>
+
+      <div class="nav-buttons">
+        <a href="puzzle2.html">Previous</a>
+        <a id="nextBtn" href="puzzle4.html" class="disabled-link">Next Puzzle</a>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
