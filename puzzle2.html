@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Puzzle 2 | AI Puzzle Quest</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="ai-bg"></div>
+
+  <main class="page">
+    <section class="puzzle-card" data-puzzle="2" data-answer="FUTURE">
+      <p class="level">Puzzle 2 / 4</p>
+      <h1>Time Decoder Puzzle</h1>
+
+      <div class="ai-chip">Neural scanner activated...</div>
+
+      <p class="question">
+        I am not here yet, but everyone is preparing for me.
+        AI, robots, and technology are shaping me every day.
+        What am I?
+      </p>
+
+      <input type="text" id="answerInput" placeholder="Type your answer here" />
+
+      <button class="main-btn" onclick="checkAnswer()">Submit Answer</button>
+
+      <p id="resultMessage" class="result"></p>
+
+      <div class="nav-buttons">
+        <a href="puzzle1.html">Previous</a>
+        <a id="nextBtn" href="puzzle3.html" class="disabled-link">Next Puzzle</a>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
