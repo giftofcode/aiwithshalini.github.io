@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Final Score | AI Puzzle Quest</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="ai-bg"></div>
+
+  <main class="page">
+    <section class="score-card">
+      <div class="ai-orb small"></div>
+
+      <h1>Final Score</h1>
+      <p class="tagline">Your AI puzzle journey is complete.</p>
+
+      <div class="score-circle">
+        <span id="finalScore">0</span>
+        <small>/ 4</small>
+      </div>
+
+      <p id="scoreMessage" class="score-message"></p>
+
+      <div class="answer-box">
+        <h2>Correct Answers</h2>
+        <p><b>Puzzle 1:</b> ALGORITHM</p>
+        <p><b>Puzzle 2:</b> FUTURE</p>
+        <p><b>Puzzle 3:</b> NEURAL</p>
+        <p><b>Puzzle 4:</b> 404</p>
+      </div>
+
+      <button class="main-btn" onclick="restartGame()">Play Again</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
